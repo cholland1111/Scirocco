@@ -49880,3 +49880,593 @@ Please check your Communications Settings.
 14/08/20 5:10:57 PM :Debug: ############################################# Save Project Backup ##########################################
 14/08/20 5:10:57 PM :Info: Finalizing Sensors
 Saved user properties successfully
+Starting on Megasquirt.local
+TunerStudio 3.1.04 started on Fri Aug 14 17:19:33 EDT 2020
+JRE 1.8.0_91, Mac OS X 10.15.6, x86_64
+java.library.path=/Users/megasquirt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+14/08/20 5:19:35 PM :Debug: no update:defaultFont
+14/08/20 5:19:36 PM :Info: Loading Language Content.
+14/08/20 5:19:38 PM :Info: Initializing File Dialogs.
+14/08/20 5:19:38 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+14/08/20 5:19:38 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+14/08/20 5:19:38 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+14/08/20 5:19:38 PM :Info: Initializing Plugin Services.
+14/08/20 5:19:38 PM :Info: Loading Plugins.
+14/08/20 5:19:38 PM :Info: Initializing Help.
+14/08/20 5:19:38 PM :Info: Initializing Edition Features.
+14/08/20 5:19:38 PM :Info: Initializing App Events.
+14/08/20 5:19:38 PM :Debug: App Name:TunerStudio, appEdition:MS
+14/08/20 5:19:38 PM :Info: Initializing User Interface
+14/08/20 5:19:40 PM :Info: Loading Font list.
+14/08/20 5:19:40 PM :Debug: Time to retreive font name list: 82 ms.
+14/08/20 5:19:40 PM :Info: 
+14/08/20 5:19:40 PM :Info: Initializing UI Components.
+14/08/20 5:19:40 PM :Info: Ready
+MSmain: No check, last update check=Thu Aug 13 21:10:14 EDT 2020
+MSad: No check, last update check=Thu Aug 13 21:10:17 EDT 2020
+14/08/20 5:19:52 PM :Info: Opening Project ...
+14/08/20 5:19:52 PM :Debug: Opening project: /Users/megasquirt/TunerStudioProjects/Scirocco
+14/08/20 5:19:52 PM :Debug: EventTrigger Data log Reset. expression: 
+14/08/20 5:19:52 PM :Debug: EventTrigger Stop Data log Reset. expression: 
+14/08/20 5:19:52 PM :Debug: Reading translation file as plain text
+14/08/20 5:19:52 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:52 PM :Debug: Filtered ConfigurationOptionGroup in 65ms.
+14/08/20 5:19:52 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:52 PM :Info: Read file canPcVariables.ini: 5.483884ms
+14/08/20 5:19:52 PM :Info: Filtered ini: 0.111955ms
+14/08/20 5:19:52 PM :Info: No iniVersion defined
+14/08/20 5:19:52 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:52 PM :Info: Loaded All known ini sections
+14/08/20 5:19:52 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 30ms.
+14/08/20 5:19:52 PM :Info: Read file mainController.ini: 22.750612ms
+14/08/20 5:19:52 PM :Info: Filtered ini: 24.698933ms
+14/08/20 5:19:52 PM :Info: No iniVersion defined
+14/08/20 5:19:52 PM :Debug: ini signature: MS3 Format 0566.05 
+14/08/20 5:19:52 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:52 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+14/08/20 5:19:52 PM :Info: Loaded All known ini sections
+14/08/20 5:19:52 PM :Info: Parsed and validated ini "mainController.ini" in : 490ms.
+14/08/20 5:19:52 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:52 PM :Info: Read file ms3Supplement.ecu: 58.582993ms
+14/08/20 5:19:52 PM :Info: Filtered ini: 0.137648ms
+14/08/20 5:19:52 PM :Info: No iniVersion defined
+14/08/20 5:19:52 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:52 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+14/08/20 5:19:52 PM :Info: Validate Expressions disabled.
+14/08/20 5:19:52 PM :Info: Loaded All known ini sections
+14/08/20 5:19:52 PM :Info: Parsed and validated ini "ms3Supplement.ecu" in : 70ms.
+14/08/20 5:19:52 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:52 PM :Info: Read file ms3DefaultTools.ini: 0.820402ms
+14/08/20 5:19:52 PM :Info: Filtered ini: 0.013457ms
+14/08/20 5:19:52 PM :Info: No iniVersion defined
+14/08/20 5:19:52 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:52 PM :Info: Loaded All known ini sections
+14/08/20 5:19:52 PM :Info: Parsed and validated ini "ms3DefaultTools.ini" in : 37ms.
+14/08/20 5:19:52 PM :Info: Time to load primary config: 756.75793ms. used cached config: false
+14/08/20 5:19:52 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:52 PM :Info: Read file ms3_1.2_WueAnalyzeMap.ecu: 2.330175ms
+14/08/20 5:19:52 PM :Info: Filtered ini: 0.089487ms
+14/08/20 5:19:52 PM :Info: No iniVersion defined
+14/08/20 5:19:52 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:52 PM :Info: Loaded All known ini sections
+14/08/20 5:19:52 PM :Info: Parsed and validated ini "ms3_1.2_WueAnalyzeMap.ecu" in : 29ms.
+14/08/20 5:19:53 PM :Debug: Adding Configuration: Scirocco
+14/08/20 5:19:53 PM :Debug: controllerOnline = 0.0
+14/08/20 5:19:53 PM :Debug: Fill Constants: 112
+14/08/20 5:19:54 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+14/08/20 5:19:54 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+14/08/20 5:19:54 PM :Info: dirtyData.size(): 0
+14/08/20 5:19:54 PM :Info: dirtyData.size(): 0
+14/08/20 5:19:54 PM :Debug: Flush lasted: 7ms.
+14/08/20 5:19:54 PM :Info: dirtyData.size(): 0
+14/08/20 5:19:54 PM :Info: dirtyData.size(): 0
+14/08/20 5:19:54 PM :Debug: Flush lasted: 0ms.
+14/08/20 5:19:54 PM :Debug: Skip Burn, last write page: -2
+14/08/20 5:19:54 PM :Info: !!! Loaded config in 2287
+14/08/20 5:19:54 PM :Info: !!! Activated Project 2823
+14/08/20 5:19:54 PM :Info: Opening Gauge Cluster..
+14/08/20 5:19:55 PM :Info: Time to load uncached dash: 254.4218ms, file: dashboard.dash
+14/08/20 5:19:55 PM :Debug: High Speed Paint: false
+14/08/20 5:19:55 PM :Info: 
+14/08/20 5:19:55 PM :Info: Com Thread created: COMM Thread42133.07965845915
+14/08/20 5:19:55 PM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+14/08/20 5:19:55 PM :Info: Comm Manager for Scirocco Started, thread ID: COMM Thread42133.07965845915
+14/08/20 5:19:55 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-AI04P0FE
+Please check your Communications Settings. 
+14/08/20 5:19:56 PM :Info: Time to load uncached dash: 554.9782ms, file: Acceleration_Performance.dash
+14/08/20 5:19:56 PM :Debug: High Speed Paint: false
+14/08/20 5:19:56 PM :Debug: !!! Opened Dash 4283
+14/08/20 5:19:56 PM :Info: Scirocco Ready
+14/08/20 5:19:56 PM :Debug: Tuning View Files loaded in 0.332689ms.
+14/08/20 5:19:56 PM :Info: Supported iniSpecVersion=3.67
+14/08/20 5:19:56 PM :Info: Read file ms3VeAnalyzeMaps.ini: 181.97766ms
+14/08/20 5:19:56 PM :Info: Filtered ini: 0.362991ms
+14/08/20 5:19:56 PM :Info: No iniVersion defined
+14/08/20 5:19:56 PM :Info: Loading Trigger Wheels
+14/08/20 5:19:56 PM :Info: Loaded All known ini sections
+14/08/20 5:19:56 PM :Info: Parsed and validated ini "ms3VeAnalyzeMaps.ini" in : 198ms.
+14/08/20 5:20:01 PM :Debug: Received Instruction: Read Chunk 3, Page: 3
+14/08/20 5:20:01 PM :Info: Initiating read page 3 : 626:32
+14/08/20 5:20:04 PM :Info: dirtyData.size(): 0
+14/08/20 5:20:04 PM :Info: dirtyData.size(): 0
+14/08/20 5:20:04 PM :Debug: Flush lasted: 1ms.
+14/08/20 5:20:04 PM :Debug: Skip Burn, last write page: -2
+14/08/20 5:20:06 PM :Debug: Received Instruction: Read Chunk 10, Page: 10
+14/08/20 5:20:06 PM :Info: Initiating read page 10 : 920:45
+14/08/20 5:20:09 PM :Info: dirtyData.size(): 0
+14/08/20 5:20:09 PM :Info: dirtyData.size(): 0
+14/08/20 5:20:09 PM :Debug: Flush lasted: 30ms.
+14/08/20 5:20:09 PM :Debug: Skip Burn, last write page: -2
+14/08/20 5:21:09 PM :Debug: Received Instruction: Read Chunk 10, Page: 10
+14/08/20 5:21:09 PM :Info: Initiating read page 10 : 920:45
+14/08/20 5:22:46 PM :Info: dirtyData.size(): 0
+14/08/20 5:22:46 PM :Info: dirtyData.size(): 0
+14/08/20 5:22:46 PM :Debug: Flush lasted: 37ms.
+14/08/20 5:22:46 PM :Debug: Skip Burn, last write page: -2
+14/08/20 5:22:48 PM :Info: Time to save msq: 160.35435
+14/08/20 5:22:48 PM :Info: closeApp Called
+14/08/20 5:22:48 PM :Debug: TuneLog Editor set text
+14/08/20 5:22:48 PM :Debug: Fill Constants: 22
+14/08/20 5:22:48 PM :Info: Skip Restore Point for 'Scirocco' because nothing changed since: Scirocco_2020-08-14_13.20.30.msq
+14/08/20 5:22:48 PM :Info: Time to save msq: 71.04285
+14/08/20 5:22:48 PM :Debug: goOffline Starting, Time:0
+14/08/20 5:22:48 PM :Info: Deactivated Turbo Baud, goOffline
+14/08/20 5:22:48 PM :Debug: goOffline about to stopProcessing, Time:1
+14/08/20 5:22:48 PM :Debug: goOffline closed port, Time:1
+14/08/20 5:22:48 PM :Info: Scirocco ComThread stopped COMM Thread42133.07965845915
+14/08/20 5:22:48 PM :Debug: goOffline comm thread stopped, Time:52
+14/08/20 5:22:48 PM :Debug: No Remaining Queue Write instructions
+14/08/20 5:22:48 PM :Debug: removing Configuration: Scirocco
+14/08/20 5:22:48 PM :Debug: ############################################# Save Project Backup ##########################################
+14/08/20 5:22:48 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on Megasquirt.local
+TunerStudio 3.1.04 started on Sat Aug 15 10:06:27 EDT 2020
+JRE 1.8.0_91, Mac OS X 10.15.6, x86_64
+java.library.path=/Users/megasquirt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+15/08/20 10:06:33 AM :Debug: no update:defaultFont
+15/08/20 10:06:37 AM :Info: Loading Language Content.
+15/08/20 10:06:39 AM :Info: Initializing File Dialogs.
+15/08/20 10:06:39 AM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+15/08/20 10:06:39 AM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+15/08/20 10:06:39 AM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+15/08/20 10:06:39 AM :Info: Initializing Plugin Services.
+15/08/20 10:06:39 AM :Info: Loading Plugins.
+15/08/20 10:06:39 AM :Info: Initializing Help.
+15/08/20 10:06:39 AM :Info: Initializing Edition Features.
+15/08/20 10:06:39 AM :Info: Initializing App Events.
+15/08/20 10:06:39 AM :Debug: App Name:TunerStudio, appEdition:MS
+15/08/20 10:06:40 AM :Info: Initializing User Interface
+15/08/20 10:06:42 AM :Info: Loading Font list.
+15/08/20 10:06:42 AM :Debug: Time to retreive font name list: 195 ms.
+15/08/20 10:06:42 AM :Info: 
+15/08/20 10:06:42 AM :Info: Initializing UI Components.
+15/08/20 10:06:42 AM :Info: Ready
+MSmain: No check, last update check=Thu Aug 13 21:10:14 EDT 2020
+MSad: No check, last update check=Thu Aug 13 21:10:17 EDT 2020
+15/08/20 10:07:36 AM :Info: Opening Project ...
+15/08/20 10:07:36 AM :Debug: Opening project: /Users/megasquirt/TunerStudioProjects/Scirocco
+15/08/20 10:07:36 AM :Debug: EventTrigger Data log Reset. expression: 
+15/08/20 10:07:36 AM :Debug: EventTrigger Stop Data log Reset. expression: 
+15/08/20 10:07:36 AM :Debug: Reading translation file as plain text
+15/08/20 10:07:36 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:36 AM :Debug: Filtered ConfigurationOptionGroup in 65ms.
+15/08/20 10:07:36 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:36 AM :Info: Read file canPcVariables.ini: 12.242152ms
+15/08/20 10:07:36 AM :Info: Filtered ini: 0.062385ms
+15/08/20 10:07:36 AM :Info: No iniVersion defined
+15/08/20 10:07:36 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:36 AM :Info: Loaded All known ini sections
+15/08/20 10:07:36 AM :Info: Parsed and validated ini "canPcVariables.ini" in : 35ms.
+15/08/20 10:07:37 AM :Info: Read file mainController.ini: 16.572315ms
+15/08/20 10:07:37 AM :Info: Filtered ini: 21.63672ms
+15/08/20 10:07:37 AM :Info: No iniVersion defined
+15/08/20 10:07:37 AM :Debug: ini signature: MS3 Format 0566.05 
+15/08/20 10:07:37 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:37 AM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+15/08/20 10:07:37 AM :Info: Loaded All known ini sections
+15/08/20 10:07:37 AM :Info: Parsed and validated ini "mainController.ini" in : 422ms.
+15/08/20 10:07:37 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:37 AM :Info: Read file ms3Supplement.ecu: 22.4617ms
+15/08/20 10:07:37 AM :Info: Filtered ini: 0.154366ms
+15/08/20 10:07:37 AM :Info: No iniVersion defined
+15/08/20 10:07:37 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:37 AM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+15/08/20 10:07:37 AM :Info: Validate Expressions disabled.
+15/08/20 10:07:37 AM :Info: Loaded All known ini sections
+15/08/20 10:07:37 AM :Info: Parsed and validated ini "ms3Supplement.ecu" in : 41ms.
+15/08/20 10:07:37 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:37 AM :Info: Read file ms3DefaultTools.ini: 0.838516ms
+15/08/20 10:07:37 AM :Info: Filtered ini: 0.012839ms
+15/08/20 10:07:37 AM :Info: No iniVersion defined
+15/08/20 10:07:37 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:37 AM :Info: Loaded All known ini sections
+15/08/20 10:07:37 AM :Info: Parsed and validated ini "ms3DefaultTools.ini" in : 25ms.
+15/08/20 10:07:37 AM :Info: Time to load primary config: 892.005ms. used cached config: false
+15/08/20 10:07:37 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:37 AM :Info: Read file ms3_1.2_WueAnalyzeMap.ecu: 11.112287ms
+15/08/20 10:07:37 AM :Info: Filtered ini: 0.090256ms
+15/08/20 10:07:37 AM :Info: No iniVersion defined
+15/08/20 10:07:37 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:37 AM :Info: Loaded All known ini sections
+15/08/20 10:07:37 AM :Info: Parsed and validated ini "ms3_1.2_WueAnalyzeMap.ecu" in : 37ms.
+15/08/20 10:07:37 AM :Debug: Adding Configuration: Scirocco
+15/08/20 10:07:37 AM :Debug: controllerOnline = 0.0
+15/08/20 10:07:37 AM :Debug: Fill Constants: 72
+15/08/20 10:07:38 AM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+15/08/20 10:07:38 AM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+15/08/20 10:07:38 AM :Info: dirtyData.size(): 0
+15/08/20 10:07:38 AM :Info: dirtyData.size(): 0
+15/08/20 10:07:38 AM :Debug: Flush lasted: 6ms.
+15/08/20 10:07:38 AM :Info: dirtyData.size(): 0
+15/08/20 10:07:38 AM :Info: dirtyData.size(): 0
+15/08/20 10:07:38 AM :Debug: Flush lasted: 1ms.
+15/08/20 10:07:38 AM :Debug: Skip Burn, last write page: -2
+15/08/20 10:07:38 AM :Info: !!! Loaded config in 2044
+15/08/20 10:07:38 AM :Info: !!! Activated Project 2578
+15/08/20 10:07:38 AM :Info: Opening Gauge Cluster..
+15/08/20 10:07:39 AM :Info: Time to load uncached dash: 314.80215ms, file: dashboard.dash
+15/08/20 10:07:39 AM :Debug: High Speed Paint: false
+15/08/20 10:07:39 AM :Info: 
+15/08/20 10:07:39 AM :Info: Com Thread created: COMM Thread84663.20290009958
+15/08/20 10:07:39 AM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+15/08/20 10:07:39 AM :Info: Comm Manager for Scirocco Started, thread ID: COMM Thread84663.20290009958
+15/08/20 10:07:39 AM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-AI04P0FE
+Please check your Communications Settings. 
+15/08/20 10:07:40 AM :Info: Time to load uncached dash: 520.931ms, file: Acceleration_Performance.dash
+15/08/20 10:07:40 AM :Debug: High Speed Paint: false
+15/08/20 10:07:40 AM :Debug: !!! Opened Dash 4087
+15/08/20 10:07:40 AM :Info: Scirocco Ready
+15/08/20 10:07:40 AM :Debug: Tuning View Files loaded in 0.237616ms.
+15/08/20 10:07:40 AM :Info: Supported iniSpecVersion=3.67
+15/08/20 10:07:40 AM :Info: Read file ms3VeAnalyzeMaps.ini: 38.979527ms
+15/08/20 10:07:40 AM :Info: Filtered ini: 0.28147ms
+15/08/20 10:07:40 AM :Info: No iniVersion defined
+15/08/20 10:07:40 AM :Info: Loading Trigger Wheels
+15/08/20 10:07:40 AM :Info: Loaded All known ini sections
+15/08/20 10:07:40 AM :Info: Parsed and validated ini "ms3VeAnalyzeMaps.ini" in : 59ms.
+15/08/20 10:31:15 AM :Info: Time to save msq: 589.3508
+15/08/20 10:31:15 AM :Info: closeApp Called
+15/08/20 10:31:15 AM :Debug: TuneLog Editor set text
+15/08/20 10:31:15 AM :Debug: Fill Constants: 26
+15/08/20 10:31:15 AM :Info: Skip Restore Point for 'Scirocco' because nothing changed since: Scirocco_2020-08-14_13.20.30.msq
+15/08/20 10:31:15 AM :Info: Time to save msq: 55.343674
+15/08/20 10:31:15 AM :Debug: goOffline Starting, Time:0
+15/08/20 10:31:15 AM :Info: Deactivated Turbo Baud, goOffline
+15/08/20 10:31:15 AM :Debug: goOffline about to stopProcessing, Time:0
+15/08/20 10:31:15 AM :Debug: goOffline closed port, Time:0
+15/08/20 10:31:16 AM :Info: Scirocco ComThread stopped COMM Thread84663.20290009958
+15/08/20 10:31:16 AM :Debug: goOffline comm thread stopped, Time:364
+15/08/20 10:31:16 AM :Debug: No Remaining Queue Write instructions
+15/08/20 10:31:16 AM :Debug: removing Configuration: Scirocco
+15/08/20 10:31:16 AM :Debug: ############################################# Save Project Backup ##########################################
+15/08/20 10:31:16 AM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on Megasquirt.local
+TunerStudio 3.1.04 started on Mon Aug 17 20:01:07 EDT 2020
+JRE 1.8.0_91, Mac OS X 10.15.6, x86_64
+java.library.path=/Users/megasquirt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+17/08/20 8:01:29 PM :Debug: no update:defaultFont
+17/08/20 8:01:34 PM :Info: Loading Language Content.
+17/08/20 8:01:36 PM :Info: Initializing File Dialogs.
+17/08/20 8:01:37 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+17/08/20 8:01:37 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+17/08/20 8:01:37 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+17/08/20 8:01:37 PM :Info: Initializing Plugin Services.
+17/08/20 8:01:38 PM :Info: Loading Plugins.
+17/08/20 8:01:38 PM :Info: Initializing Help.
+17/08/20 8:01:38 PM :Info: Initializing Edition Features.
+17/08/20 8:01:38 PM :Info: Initializing App Events.
+17/08/20 8:01:38 PM :Debug: App Name:TunerStudio, appEdition:MS
+17/08/20 8:01:38 PM :Info: Initializing User Interface
+17/08/20 8:01:40 PM :Info: Loading Font list.
+17/08/20 8:01:40 PM :Debug: Time to retreive font name list: 440 ms.
+17/08/20 8:01:40 PM :Info: 
+17/08/20 8:01:40 PM :Info: Initializing UI Components.
+17/08/20 8:01:40 PM :Info: Ready
+MSmain: No check, last update check=Thu Aug 13 21:10:14 EDT 2020
+MSad: No check, last update check=Thu Aug 13 21:10:17 EDT 2020
+17/08/20 8:01:51 PM :Info: Opening Project ...
+17/08/20 8:01:51 PM :Debug: Opening project: /Users/megasquirt/TunerStudioProjects/Scirocco
+17/08/20 8:01:51 PM :Debug: EventTrigger Data log Reset. expression: 
+17/08/20 8:01:51 PM :Debug: EventTrigger Stop Data log Reset. expression: 
+17/08/20 8:01:51 PM :Debug: Reading translation file as plain text
+17/08/20 8:01:52 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:52 PM :Debug: Filtered ConfigurationOptionGroup in 73ms.
+17/08/20 8:01:52 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:52 PM :Info: Read file canPcVariables.ini: 47.1516ms
+17/08/20 8:01:52 PM :Info: Filtered ini: 0.090026ms
+17/08/20 8:01:52 PM :Info: No iniVersion defined
+17/08/20 8:01:52 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:52 PM :Info: Loaded All known ini sections
+17/08/20 8:01:52 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 67ms.
+17/08/20 8:01:52 PM :Info: Read file mainController.ini: 13.177873ms
+17/08/20 8:01:52 PM :Info: Filtered ini: 27.936384ms
+17/08/20 8:01:52 PM :Info: No iniVersion defined
+17/08/20 8:01:52 PM :Debug: ini signature: MS3 Format 0566.05 
+17/08/20 8:01:52 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:52 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+17/08/20 8:01:52 PM :Info: Loaded All known ini sections
+17/08/20 8:01:52 PM :Info: Parsed and validated ini "mainController.ini" in : 545ms.
+17/08/20 8:01:52 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:53 PM :Info: Read file ms3Supplement.ecu: 403.99493ms
+17/08/20 8:01:53 PM :Info: Filtered ini: 0.206918ms
+17/08/20 8:01:53 PM :Info: No iniVersion defined
+17/08/20 8:01:53 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:53 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+17/08/20 8:01:53 PM :Info: Validate Expressions disabled.
+17/08/20 8:01:53 PM :Info: Loaded All known ini sections
+17/08/20 8:01:53 PM :Info: Parsed and validated ini "ms3Supplement.ecu" in : 414ms.
+17/08/20 8:01:53 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:53 PM :Info: Read file ms3DefaultTools.ini: 90.38223ms
+17/08/20 8:01:53 PM :Info: Filtered ini: 0.011919ms
+17/08/20 8:01:53 PM :Info: No iniVersion defined
+17/08/20 8:01:53 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:53 PM :Info: Loaded All known ini sections
+17/08/20 8:01:53 PM :Info: Parsed and validated ini "ms3DefaultTools.ini" in : 113ms.
+17/08/20 8:01:53 PM :Info: Time to load primary config: 1672.1287ms. used cached config: false
+17/08/20 8:01:53 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:53 PM :Info: Read file ms3_1.2_WueAnalyzeMap.ecu: 101.39594ms
+17/08/20 8:01:53 PM :Info: Filtered ini: 0.063773ms
+17/08/20 8:01:53 PM :Info: No iniVersion defined
+17/08/20 8:01:53 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:53 PM :Info: Loaded All known ini sections
+17/08/20 8:01:53 PM :Info: Parsed and validated ini "ms3_1.2_WueAnalyzeMap.ecu" in : 127ms.
+17/08/20 8:01:53 PM :Debug: Adding Configuration: Scirocco
+17/08/20 8:01:53 PM :Debug: controllerOnline = 0.0
+17/08/20 8:01:53 PM :Debug: Fill Constants: 156
+17/08/20 8:01:54 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+17/08/20 8:01:54 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+17/08/20 8:01:54 PM :Info: dirtyData.size(): 0
+17/08/20 8:01:54 PM :Info: dirtyData.size(): 0
+17/08/20 8:01:54 PM :Debug: Flush lasted: 2ms.
+17/08/20 8:01:54 PM :Info: dirtyData.size(): 0
+17/08/20 8:01:54 PM :Info: dirtyData.size(): 0
+17/08/20 8:01:54 PM :Debug: Flush lasted: 1ms.
+17/08/20 8:01:54 PM :Debug: Skip Burn, last write page: -2
+17/08/20 8:01:54 PM :Info: !!! Loaded config in 3206
+17/08/20 8:01:55 PM :Info: !!! Activated Project 4034
+17/08/20 8:01:55 PM :Info: Opening Gauge Cluster..
+17/08/20 8:01:55 PM :Info: Time to load uncached dash: 378.51273ms, file: dashboard.dash
+17/08/20 8:01:56 PM :Debug: High Speed Paint: false
+17/08/20 8:01:56 PM :Info: 
+17/08/20 8:01:56 PM :Info: Com Thread created: COMM Thread73406.36052846759
+17/08/20 8:01:56 PM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+17/08/20 8:01:56 PM :Info: Comm Manager for Scirocco Started, thread ID: COMM Thread73406.36052846759
+17/08/20 8:01:56 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-AI04P0FE
+Please check your Communications Settings. 
+17/08/20 8:01:57 PM :Info: Time to load uncached dash: 377.78586ms, file: Acceleration_Performance.dash
+17/08/20 8:01:57 PM :Debug: High Speed Paint: false
+17/08/20 8:01:57 PM :Debug: !!! Opened Dash 5941
+17/08/20 8:01:57 PM :Info: Scirocco Ready
+17/08/20 8:01:57 PM :Debug: Tuning View Files loaded in 0.276578ms.
+17/08/20 8:01:57 PM :Info: Supported iniSpecVersion=3.67
+17/08/20 8:01:57 PM :Info: Read file ms3VeAnalyzeMaps.ini: 29.957315ms
+17/08/20 8:01:57 PM :Info: Filtered ini: 0.28748ms
+17/08/20 8:01:57 PM :Info: No iniVersion defined
+17/08/20 8:01:57 PM :Info: Loading Trigger Wheels
+17/08/20 8:01:57 PM :Info: Loaded All known ini sections
+17/08/20 8:01:57 PM :Info: Parsed and validated ini "ms3VeAnalyzeMaps.ini" in : 49ms.
+17/08/20 8:03:20 PM :Debug: Received Instruction: Read Chunk 1, Page: 1
+17/08/20 8:03:20 PM :Info: Initiating read page 1 : 74:382
+17/08/20 8:03:20 PM :Debug: Received Instruction: Read Chunk 2, Page: 2
+17/08/20 8:03:20 PM :Info: Initiating read page 2 : 399:32
+17/08/20 8:05:02 PM :Info: dirtyData.size(): 0
+17/08/20 8:05:02 PM :Info: dirtyData.size(): 0
+17/08/20 8:05:02 PM :Debug: Flush lasted: 1ms.
+17/08/20 8:05:02 PM :Debug: Skip Burn, last write page: -2
+17/08/20 8:05:08 PM :Info: Time to save msq: 1352.5398
+17/08/20 8:05:08 PM :Info: closeApp Called
+17/08/20 8:05:08 PM :Debug: TuneLog Editor set text
+17/08/20 8:05:08 PM :Debug: Fill Constants: 34
+17/08/20 8:05:08 PM :Info: Maintain Restore Point size to 10.0 size. Deleting:
+/Users/megasquirt/TunerStudioProjects/Scirocco/restorePoints/Scirocco_2020-07-21_18.26.46.msq
+17/08/20 8:05:08 PM :Debug: File does not exist, creating new:
+/Users/megasquirt/TunerStudioProjects/Scirocco/restorePoints/Scirocco_2020-08-17_20.05.08.msq
+17/08/20 8:05:08 PM :Info: Time to save msq: 61.734695
+17/08/20 8:05:08 PM :Info: Scirocco Restore point saved
+17/08/20 8:05:08 PM :Info: Scirocco Restore point saved to: Scirocco_2020-08-17_20.05.08.msq
+17/08/20 8:05:08 PM :Info: Time to save msq: 64.02907
+17/08/20 8:05:08 PM :Debug: goOffline Starting, Time:0
+17/08/20 8:05:08 PM :Info: Deactivated Turbo Baud, goOffline
+17/08/20 8:05:08 PM :Debug: goOffline about to stopProcessing, Time:1
+17/08/20 8:05:08 PM :Debug: goOffline closed port, Time:1
+17/08/20 8:05:08 PM :Info: Scirocco ComThread stopped COMM Thread73406.36052846759
+17/08/20 8:05:08 PM :Debug: goOffline comm thread stopped, Time:106
+17/08/20 8:05:08 PM :Debug: No Remaining Queue Write instructions
+17/08/20 8:05:08 PM :Debug: removing Configuration: Scirocco
+17/08/20 8:05:08 PM :Debug: ############################################# Save Project Backup ##########################################
+17/08/20 8:05:09 PM :Info: Finalizing Sensors
+Saved user properties successfully
+Starting on Megasquirt.local
+TunerStudio 3.1.04 started on Thu Aug 20 16:41:42 EDT 2020
+JRE 1.8.0_91, Mac OS X 10.15.6, x86_64
+java.library.path=/Users/megasquirt/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+TunerStudioMS.jar
+Look:Metal, ClassName:'javax.swing.plaf.metal.MetalLookAndFeel'
+Look:Nimbus, ClassName:'javax.swing.plaf.nimbus.NimbusLookAndFeel'
+Look:CDE/Motif, ClassName:'com.sun.java.swing.plaf.motif.MotifLookAndFeel'
+Look:Mac OS X, ClassName:'com.apple.laf.AquaLookAndFeel'
+Look:Night Shade, ClassName:'de.muntjak.tinylookandfeel.TinyLookAndFeel'
+Setting Look & Feel to:javax.swing.plaf.metal.MetalLookAndFeel
+ScrollBar.width
+20/08/20 4:42:34 PM :Debug: no update:defaultFont
+20/08/20 4:42:40 PM :Info: Loading Language Content.
+20/08/20 4:42:42 PM :Info: Initializing File Dialogs.
+20/08/20 4:42:46 PM :Debug: Command Non-VolatileBytes for F resolved to: x46                                                                   F
+20/08/20 4:42:46 PM :Debug: Command Non-VolatileBytes for I resolved to: x49                                                                   I
+20/08/20 4:42:46 PM :Debug: Command Non-VolatileBytes for f resolved to: x66                                                                   f
+20/08/20 4:42:46 PM :Info: Initializing Plugin Services.
+20/08/20 4:42:46 PM :Info: Loading Plugins.
+20/08/20 4:42:46 PM :Info: Initializing Help.
+20/08/20 4:42:46 PM :Info: Initializing Edition Features.
+20/08/20 4:42:46 PM :Info: Initializing App Events.
+20/08/20 4:42:46 PM :Debug: App Name:TunerStudio, appEdition:MS
+20/08/20 4:42:47 PM :Info: Initializing User Interface
+20/08/20 4:42:49 PM :Info: Loading Font list.
+20/08/20 4:42:50 PM :Debug: Time to retreive font name list: 619 ms.
+20/08/20 4:42:50 PM :Info: 
+20/08/20 4:42:50 PM :Info: Initializing UI Components.
+20/08/20 4:42:50 PM :Info: Ready
+MSmain: No check, last update check=Thu Aug 13 21:10:14 EDT 2020
+MSad: No check, last update check=Thu Aug 13 21:10:17 EDT 2020
+20/08/20 4:43:07 PM :Info: Opening Project ...
+20/08/20 4:43:07 PM :Debug: Opening project: /Users/megasquirt/TunerStudioProjects/Scirocco
+20/08/20 4:43:07 PM :Debug: EventTrigger Data log Reset. expression: 
+20/08/20 4:43:07 PM :Debug: EventTrigger Stop Data log Reset. expression: 
+20/08/20 4:43:08 PM :Debug: Reading translation file as plain text
+20/08/20 4:43:08 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:08 PM :Debug: Filtered ConfigurationOptionGroup in 84ms.
+20/08/20 4:43:08 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:08 PM :Info: Read file canPcVariables.ini: 28.42122ms
+20/08/20 4:43:08 PM :Info: Filtered ini: 0.072204ms
+20/08/20 4:43:08 PM :Info: No iniVersion defined
+20/08/20 4:43:08 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:08 PM :Info: Loaded All known ini sections
+20/08/20 4:43:08 PM :Info: Parsed and validated ini "canPcVariables.ini" in : 44ms.
+20/08/20 4:43:08 PM :Info: Read file mainController.ini: 10.349223ms
+20/08/20 4:43:08 PM :Info: Filtered ini: 20.302307ms
+20/08/20 4:43:08 PM :Info: No iniVersion defined
+20/08/20 4:43:08 PM :Debug: ini signature: MS3 Format 0566.05 
+20/08/20 4:43:08 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:08 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+20/08/20 4:43:09 PM :Info: Loaded All known ini sections
+20/08/20 4:43:09 PM :Info: Parsed and validated ini "mainController.ini" in : 405ms.
+20/08/20 4:43:09 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:09 PM :Info: Read file ms3Supplement.ecu: 59.898422ms
+20/08/20 4:43:09 PM :Info: Filtered ini: 0.21482ms
+20/08/20 4:43:09 PM :Info: No iniVersion defined
+20/08/20 4:43:09 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:09 PM :Info: Loading Depricated ini section [UserDefined], use [UiDialogs]
+20/08/20 4:43:09 PM :Info: Validate Expressions disabled.
+20/08/20 4:43:09 PM :Info: Loaded All known ini sections
+20/08/20 4:43:09 PM :Info: Parsed and validated ini "ms3Supplement.ecu" in : 69ms.
+20/08/20 4:43:09 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:09 PM :Info: Read file ms3DefaultTools.ini: 6.748035ms
+20/08/20 4:43:09 PM :Info: Filtered ini: 0.013829ms
+20/08/20 4:43:09 PM :Info: No iniVersion defined
+20/08/20 4:43:09 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:09 PM :Info: Loaded All known ini sections
+20/08/20 4:43:09 PM :Info: Parsed and validated ini "ms3DefaultTools.ini" in : 33ms.
+20/08/20 4:43:09 PM :Info: Time to load primary config: 1181.3969ms. used cached config: false
+20/08/20 4:43:09 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:09 PM :Info: Read file ms3_1.2_WueAnalyzeMap.ecu: 15.598458ms
+20/08/20 4:43:09 PM :Info: Filtered ini: 0.071422ms
+20/08/20 4:43:09 PM :Info: No iniVersion defined
+20/08/20 4:43:09 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:09 PM :Info: Loaded All known ini sections
+20/08/20 4:43:09 PM :Info: Parsed and validated ini "ms3_1.2_WueAnalyzeMap.ecu" in : 43ms.
+20/08/20 4:43:09 PM :Debug: Adding Configuration: Scirocco
+20/08/20 4:43:09 PM :Debug: controllerOnline = 0.0
+20/08/20 4:43:09 PM :Debug: Fill Constants: 114
+20/08/20 4:43:10 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+20/08/20 4:43:10 PM :Info: Tune opened, 18492 bytes updated. File:/Users/megasquirt/TunerStudioProjects/Scirocco/CurrentTune.msq
+20/08/20 4:43:10 PM :Info: dirtyData.size(): 0
+20/08/20 4:43:10 PM :Info: dirtyData.size(): 0
+20/08/20 4:43:10 PM :Debug: Flush lasted: 6ms.
+20/08/20 4:43:10 PM :Info: dirtyData.size(): 0
+20/08/20 4:43:10 PM :Info: dirtyData.size(): 0
+20/08/20 4:43:10 PM :Debug: Flush lasted: 1ms.
+20/08/20 4:43:10 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:43:10 PM :Info: !!! Loaded config in 2348
+20/08/20 4:43:10 PM :Info: !!! Activated Project 2929
+20/08/20 4:43:10 PM :Info: Opening Gauge Cluster..
+20/08/20 4:43:11 PM :Info: Time to load uncached dash: 400.86258ms, file: dashboard.dash
+20/08/20 4:43:11 PM :Debug: High Speed Paint: false
+20/08/20 4:43:11 PM :Info: 
+20/08/20 4:43:11 PM :Info: Com Thread created: COMM Thread56440.41051579034
+20/08/20 4:43:11 PM :Info: endModalBlock called, but Root Pane is not a ProgressPane.
+20/08/20 4:43:11 PM :Info: Comm Manager for Scirocco Started, thread ID: COMM Thread56440.41051579034
+20/08/20 4:43:11 PM :Debug: Port not valid: Unable to open port: /dev/cu.usbserial-AI04P0FE
+Please check your Communications Settings. 
+20/08/20 4:43:12 PM :Info: Time to load uncached dash: 517.55743ms, file: Acceleration_Performance.dash
+20/08/20 4:43:12 PM :Debug: High Speed Paint: false
+20/08/20 4:43:12 PM :Debug: !!! Opened Dash 4754
+20/08/20 4:43:12 PM :Info: Scirocco Ready
+20/08/20 4:43:12 PM :Debug: Tuning View Files loaded in 0.248603ms.
+20/08/20 4:43:12 PM :Info: Supported iniSpecVersion=3.67
+20/08/20 4:43:12 PM :Info: Read file ms3VeAnalyzeMaps.ini: 93.26165ms
+20/08/20 4:43:12 PM :Info: Filtered ini: 0.390556ms
+20/08/20 4:43:12 PM :Info: No iniVersion defined
+20/08/20 4:43:12 PM :Info: Loading Trigger Wheels
+20/08/20 4:43:12 PM :Info: Loaded All known ini sections
+20/08/20 4:43:12 PM :Info: Parsed and validated ini "ms3VeAnalyzeMaps.ini" in : 106ms.
+20/08/20 4:43:15 PM :Debug: Received Instruction: Read Chunk 1, Page: 1
+20/08/20 4:43:15 PM :Info: Initiating read page 1 : 192:254
+20/08/20 4:43:59 PM :Debug: Received Instruction: Read Chunk 3, Page: 3
+20/08/20 4:43:59 PM :Info: Initiating read page 3 : 626:32
+20/08/20 4:44:01 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:01 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:01 PM :Debug: Flush lasted: 1ms.
+20/08/20 4:44:01 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:44:05 PM :Debug: Received Instruction: Read Chunk 3, Page: 3
+20/08/20 4:44:05 PM :Info: Initiating read page 3 : 626:32
+20/08/20 4:44:09 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:09 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:09 PM :Debug: Flush lasted: 1ms.
+20/08/20 4:44:09 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:44:18 PM :Debug: Received Instruction: Read Chunk 10, Page: 10
+20/08/20 4:44:18 PM :Info: Initiating read page 10 : 920:45
+20/08/20 4:44:59 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:59 PM :Info: dirtyData.size(): 0
+20/08/20 4:44:59 PM :Debug: Flush lasted: 1ms.
+20/08/20 4:44:59 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:45:06 PM :Info: dirtyData.size(): 0
+20/08/20 4:45:06 PM :Info: dirtyData.size(): 0
+20/08/20 4:45:06 PM :Debug: Flush lasted: 2ms.
+20/08/20 4:45:06 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:45:15 PM :Debug: Received Instruction: Read Chunk 1, Page: 1
+20/08/20 4:45:15 PM :Info: Initiating read page 1 : 74:382
+20/08/20 4:45:15 PM :Debug: Received Instruction: Read Chunk 2, Page: 2
+20/08/20 4:45:15 PM :Info: Initiating read page 2 : 399:32
+20/08/20 4:45:16 PM :Info: dirtyData.size(): 0
+20/08/20 4:45:16 PM :Info: dirtyData.size(): 0
+20/08/20 4:45:16 PM :Debug: Flush lasted: 1ms.
+20/08/20 4:45:16 PM :Debug: Skip Burn, last write page: -2
+20/08/20 4:45:22 PM :Info: Time to save msq: 1459.247
+20/08/20 4:45:22 PM :Info: closeApp Called
+20/08/20 4:45:22 PM :Debug: TuneLog Editor set text
+20/08/20 4:45:22 PM :Debug: Fill Constants: 35
+20/08/20 4:45:23 PM :Info: Maintain Restore Point size to 10.0 size. Deleting:
+/Users/megasquirt/TunerStudioProjects/Scirocco/restorePoints/Scirocco_2020-06-22_14.46.30.msq
+20/08/20 4:45:23 PM :Debug: File does not exist, creating new:
+/Users/megasquirt/TunerStudioProjects/Scirocco/restorePoints/Scirocco_2020-08-20_16.45.23.msq
+20/08/20 4:45:23 PM :Info: Time to save msq: 67.72164
+20/08/20 4:45:23 PM :Info: Scirocco Restore point saved
+20/08/20 4:45:23 PM :Info: Scirocco Restore point saved to: Scirocco_2020-08-20_16.45.23.msq
+20/08/20 4:45:23 PM :Info: Time to save msq: 72.73816
+20/08/20 4:45:23 PM :Debug: goOffline Starting, Time:0
+20/08/20 4:45:23 PM :Info: Deactivated Turbo Baud, goOffline
+20/08/20 4:45:23 PM :Debug: goOffline about to stopProcessing, Time:1
+20/08/20 4:45:23 PM :Debug: goOffline closed port, Time:1
+20/08/20 4:45:23 PM :Info: Scirocco ComThread stopped COMM Thread56440.41051579034
+20/08/20 4:45:23 PM :Debug: goOffline comm thread stopped, Time:104
+20/08/20 4:45:23 PM :Debug: No Remaining Queue Write instructions
+20/08/20 4:45:23 PM :Debug: removing Configuration: Scirocco
+20/08/20 4:45:23 PM :Debug: ############################################# Save Project Backup ##########################################
+20/08/20 4:45:23 PM :Info: Finalizing Sensors
+Saved user properties successfully

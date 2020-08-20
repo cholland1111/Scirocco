@@ -1,7 +1,7 @@
 #Project Attributes.
 #TunerStudio by EFI Analytics, Inc
-#Last Saved on: Fri Aug 14 17:00:29 EDT 2020
-#Fri Aug 14 17:00:29 EDT 2020
+#Last Saved on: Mon Aug 17 20:05:09 EDT 2020
+#Mon Aug 17 20:05:09 EDT 2020
 matclt_curve_Auto\ Scale\ X\ Axis\ Maximum=false
 smallpwInjector\ Small\ Pulsewidths_Y=151
 pwmidle_cl_initialvaluesClosed-Loop\ Idle\ Initial\ Values_height=709
@@ -217,13 +217,13 @@ combinedidleIdle\ Control_Y=253
 combinedidleIdle\ Control_X=413
 veTable1Map3DFuel\ VE\ Table\ 1_height=527
 CommSettingMSCommDriver.FTDI\ -\ D2XX\ driverDevice\ Serial\ \#=Auto
-overrunOver-Run\ Fuel\ Cut_width=468
+overrunOver-Run\ Fuel\ Cut_width=409
 crsettingsCranking\ /\ Startup\ Settings_height=459
 logTuningPanel_selectionTable2=afrTable1Tbl
 generalsettings2General\ Settings_Y=111
 logTuningPanel_selectionTable1=veTable1Tbl
 generalsettings2General\ Settings_X=373
-overrunOver-Run\ Fuel\ Cut_height=605
+overrunOver-Run\ Fuel\ Cut_height=571
 refTable_001_chkCelsius=false
 noisefiltering2Noise\ Filtering_height=527
 dashbcastDash\ Broadcasting_width=380

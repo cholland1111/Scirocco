@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Ultra 3.1.03 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;Remember to start logging before any driving!&#10;&#10;&#10;July 10 2020 - Replaced rad fan motor. Installed fuel pump relay dummy in fuse box (replacing wires jammed into pump socket). Reinstalled interior panels. Set closed loop initial values for 43 and 60 degree rows. Too hot to do lower values. No driving.&#10;&#10;July 4 2020 - Replaced booster check valve. Rad fan motor failure - needs to be replaced. Took very nice 15-20 minute relaxed drive with no bad engine behaviour, no stalling or dangerously low idle situations. No logs or autotuning occurred as computer crashed with kernel panic, which seems to be an issue lately. After car put away: reduced IAC cranking duty (engine would rev to 2400+rpm at startup). Reduced starting cranking timing more (still have starter kickback at times. Cut cranking pulse at high temp (still need to determine for other temperatures. Reduced priming pulse by 15%. Ran IAC via closed loop idle with good success using last value. Set closed-loop initial value table by best guess to test at later date. Reduced high rpm/load fuel in VE table - running very rich on acceleration.&#10;&#10;&#10;June 22 2020 - Oil/filter change. Replaced fuel filter. Installed oil pressure gauge sender. Diagnosed failed brake booster check valve.&#10;&#10;&#10;June 21 2020 - Very good starts at all times during several attempts - warmup enrichment getting to be well set.. Needed throttle while cranking - opened IAC in idle cranking duty to see if that compensates. Idle is still wonky - needs higher IAC duty when hot, but also sometimes wants to idle around 2000rpm - (?). Reduced acceleration enrichment 10%. Drove car around and everything felt very nice - needs more autotuning in high rpm/acceleration (need an empty road) and to figure out why the idle is wonky. Brakes still suck really bad - possible booster issue I think.&#10;&#10;&#10;June 19 2020 - Found first gear in linkage and could actually accelerate properly. More WUE autotune - car started and idled without assistance (very hot day - 30&#8226;C) on first attempt. Idle gets too low/possible stale scenario when engine is very hot (fan running) - drops to 500rpm and comes back up. Re-factored IAC duty steps to open more at hot temperature (will need to adjust actual temperature point). Still have bad hot starts (starter cranking, rich AFR) - reducing ASE by 15% to see. Needs more road testing - map obviously needs way more work (especially in higher RPMs).&#10;&#10;&#10;June 15 2020 - Adjusted shift linkage (still don't know if I'm in first gear most of the time). Another round of WUE autotune. Playing with open-loop IAC when warming up. New sensor tables look better. Adjusted cranking timing advance to 6 degrees (stock) to reduce starter kickback while cracking. Logs look like car leans when acceleration enrichment starts - increased TPS added by 15%. Need to make log of startups to check Afterstart enrichment.&#10;&#10;&#10;June 14 2020 - Adjusted open-loop IAC and ran WUE Auto Tune. Drove around with VE Table Autotune. Need to keep doing this, learn how to set After Start Enrichment, and priming/cranking pulses. Adjusted thermistor sensor tables - check if they're more accurate when engine is cold - if not change back to standard GM sensor tables. &#10;&#10;&#10;June 7 2020 - Spark plugs replaced. Injector deadtime tested by watching lean/rich change when adjusting between 1 and 2 squirts per engine cycle. Idle smooth on hot engine at ~1200rpm with Open-Loop IAC and idle RPM timing correction. Need to adjust IAC warmup duty/steps and WUE for warmup. Need to adjust idle RPM timing correction curve to reduce idle speed - probably. And auto-tune VE table and accel enrich for acceleration." writeDate="Fri Jul 17 13:37:01 EDT 2020"/>
+<bibliography author="TunerStudio MS 3.1.04 - EFI Analytics, Inc." tuneComment="&lt;html&gt;Restore Point: Project close - &lt;br&gt;August 20 2020 - Inital IAC advanced PID setup. To be tested and adjusted tomorrow.&#10;&#10;August 14 2020 - Increased closed loop initial values. Replaced fan switch, thermostat. Wired high-speed fan channel. Rewired starter solenoid wiring.&#10;&#10;August 1 2020 - Reduced cranking pulse by 5%.&#10;&#10;July 26 2020 - Tested coolant sensor values and readjusted. &#10;&#10;July 17 2020 - Confirmed/repaired oil pressure switches, cluster coolant gauge, fuel level gauge. Changed closed-loop idle table to MAT. Drove using autotuned. Coolant temperature got very hot (120&#8226;C as per MS gauge) - not sure if this is an issue (no overheating). Maybe test thermistor calibration as it's always seemed a little high. Other than that, everything is very nice! &#10;&#10;July 10 2020 - Replaced rad fan motor. Installed fuel pump relay dummy in fuse box (replacing wires jammed into pump socket). Reinstalled interior panels. Set closed loop initial values for 43 and 60 degree rows. Too hot to do lower values. No driving.&#10;&#10;July 4 2020 - Replaced booster check valve. Rad fan motor failure - needs to be replaced. Took very nice 15-20 minute relaxed drive with no bad engine behaviour, no stalling or dangerously low idle situations. No logs or autotuning occurred as computer crashed with kernel panic, which seems to be an issue lately. After car put away: reduced IAC cranking duty (engine would rev to 2400+rpm at startup). Reduced starting cranking timing more (still have starter kickback at times. Cut cranking pulse at high temp (still need to determine for other temperatures. Reduced priming pulse by 15%. Ran IAC via closed loop idle with good success using last value. Set closed-loop initial value table by best guess to test at later date. Reduced high rpm/load fuel in VE table - running very rich on acceleration.&#10;&#10;June 22 2020 - Oil/filter change. Replaced fuel filter. Installed oil pressure gauge sender. Diagnosed failed brake booster check valve.&#10;&#10;June 21 2020 - Very good starts at all times during several attempts - warmup enrichment getting to be well set.. Needed throttle while cranking - opened IAC in idle cranking duty to see if that compensates. Idle is still wonky - needs higher IAC duty when hot, but also sometimes wants to idle around 2000rpm - (?). Reduced acceleration enrichment 10%. Drove car around and everything felt very nice - needs more autotuning in high rpm/acceleration (need an empty road) and to figure out why the idle is wonky. Brakes still suck really bad - possible booster issue I think.&#10;&#10;June 19 2020 - Found first gear in linkage and could actually accelerate properly. More WUE autotune - car started and idled without assistance (very hot day - 30&#8226;C) on first attempt. Idle gets too low/possible stale scenario when engine is very hot (fan running) - drops to 500rpm and comes back up. Re-factored IAC duty steps to open more at hot temperature (will need to adjust actual temperature point). Still have bad hot starts (starter cranking, rich AFR) - reducing ASE by 15% to see. Needs more road testing - map obviously needs way more work (especially in higher RPMs).&#10;&#10;June 15 2020 - Adjusted shift linkage (still don't know if I'm in first gear most of the time). Another round of WUE autotune. Playing with open-loop IAC when warming up. New sensor tables look better. Adjusted cranking timing advance to 6 degrees (stock) to reduce starter kickback while cracking. Logs look like car leans when acceleration enrichment starts - increased TPS added by 15%. Need to make log of startups to check Afterstart enrichment.&#10;&#10;June 14 2020 - Adjusted open-loop IAC and ran WUE Auto Tune. Drove around with VE Table Autotune. Need to keep doing this, learn how to set After Start Enrichment, and priming/cranking pulses. Adjusted thermistor sensor tables - check if they're more accurate when engine is cold - if not change back to standard GM sensor tables. &#10;&#10;June 7 2020 - Spark plugs replaced. Injector deadtime tested by watching lean/rich change when adjusting between 1 and 2 squirts per engine cycle. Idle smooth on hot engine at ~1200rpm with Open-Loop IAC and idle RPM timing correction. Need to adjust IAC warmup duty/steps and WUE for warmup. Need to adjust idle RPM timing correction curve to reduce idle speed - probably. And auto-tune VE table and accel enrich for acceleration." writeDate="Fri Aug 21 10:31:46 EDT 2020"/>
 <versionInfo fileFormat="5.0" firmwareInfo="MS3+1.5.1+release+++++20171006+16%3A30BST+%28c%29+JSM%2FKC+********" nPages="20" signature="MS3 Format 0566.05 "/>
 <page>
 <pcVariable name="tsCanId">"CAN ID 0"</pcVariable>
@@ -20,10 +20,10 @@
 <pcVariable name="tsLogPowerFields">"Log HP &amp; Tq"</pcVariable>
 <pcVariable name="tsLogPerfFields">"Off"</pcVariable>
 <pcVariable name="tsFuelConsumptionUnits">"US Gallons"</pcVariable>
-<pcVariable name="tsDistanceUnits">"Kilometers Per Hour"</pcVariable>
-<pcVariable digits="0" name="tsVehicleWeight">2200.0</pcVariable>
+<pcVariable name="tsDistanceUnits">"Miles Per Hour"</pcVariable>
+<pcVariable digits="0" name="tsVehicleWeight">3450.0</pcVariable>
 <pcVariable name="tsWeightUnits">"lbs"</pcVariable>
-<pcVariable digits="2" name="tsVehicleDragCoef">0.38</pcVariable>
+<pcVariable digits="2" name="tsVehicleDragCoef">0.34</pcVariable>
 <pcVariable digits="0" name="tsTirePressure" units="psi">32.0</pcVariable>
 <pcVariable digits="1" name="tsFrontalArea">19.3</pcVariable>
 <pcVariable name="tsFrontalUnits">"sqft"</pcVariable>
@@ -52,7 +52,7 @@
          135.0 
          124.0 
          112.0 
-         104.0 
+         100.0 
          100.0 
       </pcVariable>
 </page>
@@ -75,7 +75,7 @@
 <constant digits="1" name="mat0" units="°C">-17.776</constant>
 <constant digits="0" name="matmult" units="%">100.0</constant>
 <constant digits="0" name="tpsMin" units="ADC">60.0</constant>
-<constant digits="0" name="tpsMax" units="ADC">787.0</constant>
+<constant digits="0" name="tpsMax" units="ADC">784.0</constant>
 <constant digits="1" name="batt0" units="V">0.1</constant>
 <constant digits="1" name="battmax" units="V">29.7</constant>
 <constant digits="1" name="ego0" units="afr">0.0</constant>
@@ -102,7 +102,7 @@
 <constant digits="2" name="reluctorteeth2">40.0</constant>
 <constant digits="1" name="boosttol" units="kPa">40.0</constant>
 <constant digits="1" name="OverBoostKpa2" units="kPa">110.0</constant>
-<constant digits="0" name="fc_rpm_lower" units="rpm">1100.0</constant>
+<constant digits="0" name="fc_rpm_lower" units="rpm">1500.0</constant>
 <constant name="OverBoostOption">"None"</constant>
 <constant name="OverBoostOption_tol">"Off"</constant>
 <constant name="hardware_spk">"JS10 spark"</constant>
@@ -119,7 +119,7 @@
 <constant digits="2" name="taeTime" units="s">0.2</constant>
 <constant digits="0" name="tpsasync_events" units="events">20.0</constant>
 <constant digits="0" name="tdePct">100.0</constant>
-<constant digits="1" name="floodClear" units="%">85.0</constant>
+<constant digits="1" name="floodClear" units="%">60.0</constant>
 <constant digits="1" name="TPSOXLimit" units="%">100.0</constant>
 <constant digits="0" name="tpsProportion" units="%">100.0</constant>
 <constant name="baroCorr">"None"</constant>
@@ -162,8 +162,8 @@
 <constant name="RevLimOption_retard">"Progressive retard"</constant>
 <constant name="RevLimOption_spkcut">"Off"</constant>
 <constant name="RevLimCLTbased">"Normal"</constant>
-<constant name="RevLimOption_fuelprog">"Off"</constant>
-<constant name="RevLimOption_fuelcut">"Off"</constant>
+<constant name="RevLimOption_fuelprog">"On"</constant>
+<constant name="RevLimOption_fuelcut">"On"</constant>
 <constant digits="0" name="RevLimMaxRtd" units="deg">12.0</constant>
 <constant digits="0" name="ego_startdelay" units="s">7.0</constant>
 <constant name="can_poll2_gps">"Off"</constant>
@@ -182,7 +182,7 @@
 <constant digits="1" name="baro_default" units="kPa">100.0</constant>
 <constant name="can_poll2_ego2">"Disable"</constant>
 <constant digits="0" name="launchcutzone" units="RPM">200.0</constant>
-<constant digits="0" name="RevLimNormal2" units="RPM">6400.0</constant>
+<constant digits="0" name="RevLimNormal2" units="RPM">7200.0</constant>
 <constant digits="0" name="hw_latency" units="usec">0.0</constant>
 <constant name="loadCombine">"multiplicitive"</constant>
 <constant name="loadMult">"multiply"</constant>
@@ -293,9 +293,9 @@
 <constant name="feature4_0mindwl">"Off"</constant>
 <constant name="timing_flags">"Use Table"</constant>
 <constant name="use_prediction">"1st Deriv Prediction"</constant>
-<constant digits="1" name="crank_dwell" units="ms">6.0</constant>
+<constant digits="1" name="crank_dwell" units="ms">3.0</constant>
 <constant name="tsw_pin_f">"Tableswitch"</constant>
-<constant digits="1" name="crank_timing" units="degrees">5.0</constant>
+<constant digits="1" name="crank_timing" units="degrees">0.0</constant>
 <constant digits="1" name="fixed_timing" units="degrees">10.0</constant>
 <constant digits="0" name="tsf_rpm" units="rpm">6000.0</constant>
 <constant digits="1" name="tsf_kpa" units="kPa">100.0</constant>
@@ -310,11 +310,11 @@
 <constant name="tsw_pin_s">"Tableswitch"</constant>
 <constant digits="0" name="pwmidlecranktaper" units="s">5.0</constant>
 <constant digits="1" name="knk_step_adv" units="deg">2.0</constant>
-<constant digits="0" name="fc_rpm_upper" units="rpm">1400.0</constant>
-<constant digits="1" name="fc_clt" units="°C">32.219</constant>
-<constant digits="1" name="fc_delay" units="s">1.5</constant>
+<constant digits="0" name="fc_rpm_upper" units="rpm">1700.0</constant>
+<constant digits="1" name="fc_clt" units="°C">49.995</constant>
+<constant digits="1" name="fc_delay" units="s">0.7</constant>
 <constant name="tacho_opt3f">"Tacho"</constant>
-<constant digits="0" name="fc_ego_delay" units="s">0.0</constant>
+<constant digits="0" name="fc_ego_delay" units="s">1.0</constant>
 <constant name="tacho_opt80">"Off"</constant>
 <constant name="tacho_optvar">"Fixed"</constant>
 <constant name="tacho_opt40">"Normal"</constant>
@@ -398,8 +398,8 @@
 <constant digits="0" name="pwmidle_close_delay" units="s">0.0</constant>
 <constant digits="1" name="pwmidle_open_duty" units="%">74.872</constant>
 <constant digits="0" name="pwmidle_open_steps" units="steps">191.0</constant>
-<constant digits="1" name="pwmidle_closed_duty" units="%">52.136</constant>
-<constant digits="0" name="pwmidle_closed_steps" units="steps">133.0</constant>
+<constant digits="1" name="pwmidle_closed_duty" units="%">59.976</constant>
+<constant digits="0" name="pwmidle_closed_steps" units="steps">153.0</constant>
 <constant digits="0" name="pwmidle_pid_wait_timer" units="s">1.0</constant>
 <constant name="pwmidle_freq_pin3">"Off"</constant>
 <constant name="pwmidle_freq_koeo">"On"</constant>
@@ -407,9 +407,9 @@
 <constant name="pwmidle_flags_wot">"On"</constant>
 <constant digits="1" name="pwmidle_dp_adder" units="%">2.352</constant>
 <constant digits="0" name="pwmidle_dp_adder_steps" units="steps">6.0</constant>
-<constant digits="1" name="pwmidle_Kp_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Ki_new" units="%">100.0</constant>
-<constant digits="1" name="pwmidle_Kd_new" units="%">0.0</constant>
+<constant digits="1" name="pwmidle_Kp_new" units="%">35.0</constant>
+<constant digits="1" name="pwmidle_Ki_new" units="%">75.0</constant>
+<constant digits="1" name="pwmidle_Kd_new" units="%">1.0</constant>
 <constant name="pwmidle_freq_scale">"99Hz"</constant>
 <constant name="pwmidle_freq_pin">"Fidle"</constant>
 <constant name="boost_ctl_settings_freq">"78Hz"</constant>
@@ -430,8 +430,8 @@
 <constant name="NoiseFilterOpts2">"Off"</constant>
 <constant name="NoiseFilterOpts3">"Off"</constant>
 <constant digits="1" name="launchcuttiming" units="deg">9.0</constant>
-<constant digits="0" name="pwmidle_max_rpm_new">54.0</constant>
-<constant digits="0" name="pwmidle_targ_ramptime" units="s">2.0</constant>
+<constant digits="0" name="pwmidle_max_rpm_new">0.0</constant>
+<constant digits="0" name="pwmidle_targ_ramptime" units="s">1.0</constant>
 <constant name="boost_ctl_pins_pwm">"Boost"</constant>
 <constant name="vss_opt1">"Tableswitch"</constant>
 <constant name="vss_opt2">"Tableswitch"</constant>
@@ -453,8 +453,8 @@
 <constant name="log_style_led">"Off"</constant>
 <constant digits="1" name="primedelay" units="s">0.0</constant>
 <constant name="pwmidle_cl_opts_initvaluetable">"Use initial value table"</constant>
-<constant name="pwmidle_cl_opts_initval_clt">"Use CLT"</constant>
-<constant name="pwmidle_cl_opts_display_pid">"Basic"</constant>
+<constant name="pwmidle_cl_opts_initval_clt">"Use MAT"</constant>
+<constant name="pwmidle_cl_opts_display_pid">"Advanced"</constant>
 <constant name="boost_ctl_flags">"Basic Mode"</constant>
 <constant name="boost_ctl_flags2">"Basic Mode"</constant>
 <constant name="idleveadv_to_pid_idleadv">"Use Engine State"</constant>
@@ -1110,7 +1110,7 @@
 <constant name="testsel_inj">"Inj1/I"</constant>
 <constant name="testsel_coil">"CoilA"</constant>
 <constant digits="0" name="dbgtooth" units="tooth">0.0</constant>
-<constant digits="0" name="iacpostest" units="steps">67.0</constant>
+<constant digits="0" name="iacpostest" units="steps">68.0</constant>
 <constant digits="0" name="iachometest" units="steps">250.0</constant>
 <constant digits="0" name="iactest_0">0.0</constant>
 <constant name="flashlock">"Locked"</constant>
@@ -1560,13 +1560,13 @@
 <constant name="can_rcv_opt_on">"Off"</constant>
 <constant digits="0" name="engine_state_accel_slow_thresh" units="rpm/sec">800.0</constant>
 <constant digits="0" name="engine_state_decel_slow_thresh" units="rpm/sec">-800.0</constant>
-<constant digits="1" name="engine_state_tps_closed_thresh" units="%">1.0</constant>
+<constant digits="1" name="engine_state_tps_closed_thresh" units="%">5.0</constant>
 <constant digits="1" name="engine_state_overrun_map_thresh" units="kPa">20.0</constant>
 <constant digits="0" name="engine_state_overrun_rpm_thresh" units="rpm">1200.0</constant>
 <constant name="engine_state_flags_use_vss">"Off"</constant>
 <constant digits="2" name="vss_samp_int" units="ms">50.0</constant>
 <constant digits="0" name="engine_state_vss_thresh" units="KPH">0.36</constant>
-<constant digits="1" name="engine_state_tps_wot_thresh" units="%">95.0</constant>
+<constant digits="1" name="engine_state_tps_wot_thresh" units="%">90.0</constant>
 <constant digits="2" name="oilpress_time" units="s">0.1</constant>
 <constant name="dummyfield">""</constant>
 <constant name="staged_out2">"Off"</constant>
@@ -2116,15 +2116,15 @@
          2.0 
       </constant>
 <constant cols="1" digits="0" name="crankPctTable" rows="10" units="%">
-         277.0 
-         256.0 
-         234.0 
-         213.0 
-         192.0 
-         170.0 
-         150.0 
-         128.0 
-         107.0 
+         240.0 
+         222.0 
+         203.0 
+         185.0 
+         166.0 
+         149.0 
+         131.0 
+         111.0 
+         100.0 
          100.0 
       </constant>
 <constant cols="1" digits="0" name="asePctTable" rows="10" units="%">
@@ -2137,7 +2137,7 @@
          24.0 
          22.0 
          20.0 
-         10.0 
+         19.0 
       </constant>
 <constant cols="1" digits="0" name="aseCntTable" rows="10" units="cycles">
          350.0 
@@ -2377,7 +2377,7 @@
          1125.0 
          1075.0 
          1025.0 
-         1000.0 
+         975.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_clt_temps" rows="8" units="°C">
          21.109 
@@ -2464,16 +2464,16 @@
          50.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_dutyorsteps_duty" rows="4" units="%">
-         70.168 
-         68.992 
-         70.952 
+         72.128 
+         72.128 
          72.912 
+         74.872 
       </constant>
 <constant cols="1" digits="0" name="pwmidle_crank_dutyorsteps_steps" rows="4" units="steps">
-         179.0 
-         176.0 
-         181.0 
+         184.0 
+         184.0 
          186.0 
+         191.0 
       </constant>
 <constant cols="1" digits="1" name="pwmidle_crank_clt_temps" rows="4" units="°C">
          -1.111 
@@ -3079,7 +3079,7 @@
          27.71945 
          36.49635 
          64.9935 
-         89.991 
+         79.992 
          119.988 
       </constant>
 <constant cols="1" digits="1" name="dwellvolts" rows="6" units="V">
@@ -3706,21 +3706,21 @@
 </page>
 <page number="6" size="1024">
 <constant cols="16" digits="1" name="veTable1" rows="16" units="%">
-         35.1 37.2 37.3 43.5 53.0 48.9 48.8 53.1 57.3 58.5 57.6 56.2 54.7 53.3 52.0 50.4 
-         39.2 39.6 41.6 42.6 53.1 50.1 46.9 55.3 60.0 61.3 60.4 58.9 57.3 55.9 54.6 53.9 
-         43.5 44.5 45.3 43.4 52.1 51.5 51.5 60.9 65.1 66.1 65.0 63.3 61.4 59.8 58.6 58.1 
-         47.2 48.9 49.1 48.5 56.8 56.8 60.2 67.0 70.7 71.4 70.2 68.1 65.9 64.0 62.6 62.0 
-         50.2 53.0 53.0 50.8 54.2 56.4 67.5 73.4 76.2 77.0 75.5 73.0 70.3 68.0 66.3 65.4 
-         53.6 56.3 57.2 56.6 61.8 61.9 73.1 79.5 82.6 82.6 80.7 77.8 74.4 71.6 69.6 68.7 
-         56.6 59.4 65.7 61.4 63.1 66.4 77.0 83.5 86.4 86.2 83.9 80.4 76.6 73.5 71.3 70.7 
-         59.1 62.3 69.1 64.7 68.1 71.2 79.5 82.2 84.9 84.7 82.2 78.5 74.7 71.5 69.4 68.0 
-         61.9 66.0 78.3 69.2 71.3 76.1 82.1 83.1 86.0 86.2 83.5 79.6 75.7 72.6 70.5 69.4 
-         64.7 69.8 79.4 71.0 75.6 76.9 77.5 83.8 88.5 88.9 86.0 82.0 78.1 75.0 73.0 71.9 
-         67.5 73.6 81.3 78.7 79.5 77.8 78.4 85.7 91.2 91.7 88.7 84.5 80.7 77.6 75.5 74.5 
-         70.5 76.1 83.4 83.4 82.4 83.3 84.4 87.6 93.3 95.2 92.1 87.7 83.6 80.3 78.1 77.0 
-         73.6 80.1 84.2 84.5 83.8 88.2 86.2 88.8 97.2 98.8 95.7 91.1 86.7 83.1 80.7 79.5 
-         76.3 83.8 85.8 85.1 86.2 90.1 92.0 90.8 98.1 101.2 98.7 94.0 89.4 85.6 83.1 81.9 
-         78.4 82.1 85.8 85.6 86.9 88.8 88.0 88.3 97.0 102.2 100.1 95.7 91.2 87.5 85.0 83.9 
+         35.1 37.2 37.3 43.5 44.6 47.5 48.8 53.1 57.3 58.5 57.6 56.2 54.7 53.3 52.0 50.4 
+         39.2 40.3 42.3 42.4 51.6 45.7 46.3 53.1 60.0 61.3 60.4 58.9 57.3 55.9 54.6 53.9 
+         43.5 45.2 46.0 47.0 55.5 47.6 50.3 60.9 65.1 66.1 65.0 63.3 61.4 59.8 58.6 58.1 
+         47.2 49.6 49.8 50.0 58.6 53.9 58.7 67.0 70.7 71.4 70.2 68.1 65.9 64.0 62.6 62.0 
+         50.2 53.0 53.0 54.7 60.4 59.9 67.5 73.4 76.2 77.0 75.5 73.0 70.3 68.0 66.3 65.4 
+         53.6 56.3 57.2 60.4 67.4 66.6 71.7 79.5 82.6 82.6 80.7 77.8 74.4 71.6 69.6 68.7 
+         56.6 59.4 67.7 65.8 67.9 70.7 75.9 83.5 86.4 86.2 83.9 80.4 76.6 73.5 71.3 70.7 
+         59.1 62.3 71.2 73.8 74.2 74.3 76.9 82.2 84.9 84.7 82.2 78.5 74.7 71.5 69.4 68.0 
+         61.9 66.0 79.3 77.2 77.3 78.6 79.3 83.1 86.0 86.2 83.5 79.6 75.7 72.6 70.5 69.4 
+         64.7 69.8 81.5 78.0 78.1 80.4 77.5 83.8 88.5 88.9 86.0 82.0 78.1 75.0 73.0 71.9 
+         67.5 73.6 81.3 84.5 82.9 81.2 78.4 83.3 91.2 91.7 88.7 84.5 80.7 77.6 75.5 74.5 
+         70.5 76.1 83.4 87.2 86.7 85.7 83.3 84.5 92.0 95.2 92.1 87.7 83.6 80.3 78.1 77.0 
+         73.6 80.1 84.2 85.9 87.4 88.2 85.2 86.8 94.9 98.8 95.7 91.1 86.7 83.1 80.7 79.5 
+         76.3 83.8 85.8 85.1 86.2 90.1 91.0 89.8 94.5 100.2 98.7 94.0 89.4 85.6 83.1 81.9 
+         78.4 82.1 85.8 85.6 86.9 88.8 88.0 86.9 92.8 102.2 100.1 95.7 91.2 87.5 85.0 83.9 
          80.0 80.1 83.7 86.2 88.2 89.4 91.9 89.5 99.3 102.6 100.4 96.2 91.9 88.4 86.0 85.0 
       </constant>
 <constant cols="16" digits="1" name="veTable2" rows="16" units="%">
@@ -4404,18 +4404,18 @@
          59.994 
       </constant>
 <constant cols="5" digits="1" name="pwmidle_cl_initialvalues_duties" rows="5" units="%">
-         52.528 54.096 54.88 56.84 58.016 
-         52.92 53.312 54.096 58.016 59.192 
-         54.096 54.488 54.88 59.192 59.976 
-         52.136 52.92 56.056 59.976 61.152 
-         52.92 54.88 61.936 65.072 67.032 
+         60.368 61.544 62.328 63.112 66.248 
+         61.544 61.936 62.72 63.504 66.64 
+         62.328 63.504 63.896 64.68 67.032 
+         63.112 63.504 64.68 65.072 68.208 
+         63.504 63.896 65.072 65.856 68.992 
       </constant>
 <constant cols="5" digits="0" name="pwmidle_cl_initialvalues_steps" rows="5" units="steps">
-         134.0 138.0 140.0 145.0 148.0 
-         135.0 136.0 138.0 148.0 151.0 
-         138.0 139.0 140.0 151.0 153.0 
-         133.0 135.0 143.0 153.0 156.0 
-         135.0 140.0 158.0 166.0 171.0 
+         154.0 157.0 159.0 161.0 169.0 
+         157.0 158.0 160.0 162.0 170.0 
+         159.0 162.0 163.0 165.0 171.0 
+         161.0 162.0 165.0 166.0 174.0 
+         162.0 163.0 166.0 168.0 176.0 
       </constant>
 <constant cols="1" digits="0" name="knock_clts" rows="4" units="°C">
          4.444 
@@ -6211,7 +6211,6 @@
          16428.0 
          16432.0 
          16438.0 
-         16450.0 
          8262.0 
          8270.0 
          8271.0 
@@ -6221,27 +6220,28 @@
          8278.0 
          8279.0 
          8444.0 
-         8445.0 
-         8446.0 
-         8447.0 
-         8448.0 
-         8449.0 
-         8450.0 
-         8451.0 
          16684.0 
-         16686.0 
-         16688.0 
-         16690.0 
-         16692.0 
-         16694.0 
-         16696.0 
-         16698.0 
          8522.0 
          16720.0 
          16722.0 
          8543.0 
          8639.0 
          8679.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
          0.0 
          0.0 
@@ -6859,31 +6859,31 @@
 <constant cols="1" digits="0" name="UNALLOCATED_TOP_15" rows="28" units="RAW">
          180.0 
          194.0 
-         2.0 
+         35.0 
          146.0 
-         14.0 
-         82.0 
+         6.0 
+         146.0 
          62.0 
          136.0 
-         54.0 
-         4.0 
-         9.0 
+         23.0 
+         38.0 
+         25.0 
          0.0 
-         17.0 
-         104.0 
+         16.0 
+         105.0 
          131.0 
-         70.0 
+         66.0 
          162.0 
          0.0 
          122.0 
          154.0 
-         209.0 
-         140.0 
+         241.0 
+         141.0 
          6.0 
          79.0 
          2.0 
          208.0 
-         3.0 
+         131.0 
          98.0 
       </constant>
 </page>
@@ -9173,6 +9173,7 @@
 </settings>
 <userComments Comment="These are user comments that can be related to a particular setting or dialog.">
 <userComment name="hw_latency" value=""/>
+<userComment name="RevLimOption_fuelcut" value=""/>
 <userComment name="maeBins" value=""/>
 <userComment name="stoich" value=""/>
 <userComment name="idleve_on" value=""/>

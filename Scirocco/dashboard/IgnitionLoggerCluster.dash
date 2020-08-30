@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 3.1.04 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2020, All Rights Reserved." writeDate="Fri Aug 14 17:10:57 EDT 2020"/>
+<bibliography author="TunerStudio 3.1.04 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2020, All Rights Reserved." writeDate="Fri Aug 28 16:13:11 EDT 2020"/>
 <versionInfo fileFormat="3.0" firmwareSignature="MS3 Format 0566.05 "/>
 <gaugeCluster antiAliasing="false" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile" forceAspect="false" forceAspectHeight="9.0" forceAspectWidth="16.0">
 <dashComp type="Gauge">
 <Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String">Engine Speed</Title>
+<Min type="double">0.0</Min>
+<Units type="String">RPM</Units>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Max type="double">100.0</Max>
+<MaxVP type="ValueProvider">rpmhigh</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
@@ -26,11 +29,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">0.0</MinVP>
-<MaxVP type="ValueProvider">rpmhigh</MaxVP>
-<Max type="double">100.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String">RPM</Units>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">100.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
@@ -59,14 +57,17 @@
 <ValueDigits type="int">0</ValueDigits>
 <ValueDigitsVP type="ValueProvider">0.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">0.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">rpm</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
@@ -76,16 +77,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String"/>
+<Min type="double">0.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Max type="double">100.0</Max>
+<MaxVP type="ValueProvider">rpmhigh</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
@@ -101,11 +104,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">0.0</MinVP>
-<MaxVP type="ValueProvider">rpmhigh</MaxVP>
-<Max type="double">100.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">100.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
@@ -134,14 +132,17 @@
 <ValueDigits type="int">0</ValueDigits>
 <ValueDigitsVP type="ValueProvider">0.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">0.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">rpm</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.04</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <RelativeX type="double">0.6699999999999999</RelativeX>
@@ -151,16 +152,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String">Engine MAP</Title>
+<Min type="double">0.0</Min>
+<Units type="String">kPa</Units>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Max type="double">100.0</Max>
+<MaxVP type="ValueProvider">loadhigh</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
@@ -176,11 +179,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">0.0</MinVP>
-<MaxVP type="ValueProvider">loadhigh</MaxVP>
-<Max type="double">100.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String">kPa</Units>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">100.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
@@ -192,7 +190,7 @@
 <HighCriticalVP type="ValueProvider">loadhigh</HighCriticalVP>
 <HighWarning type="double">200.0</HighWarning>
 <HighWarningVP type="ValueProvider">200.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">98.10000000000001</HistoricalPeakValue>
 <LowCritical type="double">0.0</LowCritical>
 <LowCriticalVP type="ValueProvider">0.0</LowCriticalVP>
 <LowWarning type="double">20.0</LowWarning>
@@ -209,14 +207,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">0.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">map</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
@@ -226,16 +227,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">0.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String"/>
+<Min type="double">0.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Max type="double">100.0</Max>
+<MaxVP type="ValueProvider">loadhigh</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
@@ -251,11 +254,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">0.0</MinVP>
-<MaxVP type="ValueProvider">loadhigh</MaxVP>
-<Max type="double">100.0</Max>
-<Min type="double">0.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">100.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
@@ -267,7 +265,7 @@
 <HighCriticalVP type="ValueProvider">loadhigh</HighCriticalVP>
 <HighWarning type="double">200.0</HighWarning>
 <HighWarningVP type="ValueProvider">200.0</HighWarningVP>
-<HistoricalPeakValue type="double">0.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">98.10000000000001</HistoricalPeakValue>
 <LowCritical type="double">0.0</LowCritical>
 <LowCriticalVP type="ValueProvider">0.0</LowCriticalVP>
 <LowWarning type="double">20.0</LowWarning>
@@ -284,14 +282,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">0.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">map</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.04</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <RelativeX type="double">0.6699999999999999</RelativeX>
@@ -301,16 +302,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">10.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String">Air:Fuel Ratio 1</Title>
+<Min type="double">10.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">10.0</MinVP>
+<Max type="double">19.4</Max>
+<MaxVP type="ValueProvider">19.4</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
@@ -326,11 +329,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">10.0</MinVP>
-<MaxVP type="ValueProvider">19.4</MaxVP>
-<Max type="double">19.4</Max>
-<Min type="double">10.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">19.4</DefaultMax>
 <DefaultMin type="double">10.0</DefaultMin>
@@ -342,7 +340,7 @@
 <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
 <HighWarning type="double">15.0</HighWarning>
 <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-<HistoricalPeakValue type="double">10.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">10.600000000000001</HistoricalPeakValue>
 <LowCritical type="double">12.0</LowCritical>
 <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
 <LowWarning type="double">13.0</LowWarning>
@@ -359,14 +357,17 @@
 <ValueDigits type="int">2</ValueDigits>
 <ValueDigitsVP type="ValueProvider">2.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">10.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">afr1</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
@@ -376,16 +377,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">10.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String"/>
+<Min type="double">10.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">10.0</MinVP>
+<Max type="double">19.4</Max>
+<MaxVP type="ValueProvider">19.4</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
@@ -401,11 +404,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">10.0</MinVP>
-<MaxVP type="ValueProvider">19.4</MaxVP>
-<Max type="double">19.4</Max>
-<Min type="double">10.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">19.4</DefaultMax>
 <DefaultMin type="double">10.0</DefaultMin>
@@ -417,7 +415,7 @@
 <HighCriticalVP type="ValueProvider">16.0</HighCriticalVP>
 <HighWarning type="double">15.0</HighWarning>
 <HighWarningVP type="ValueProvider">15.0</HighWarningVP>
-<HistoricalPeakValue type="double">10.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">10.600000000000001</HistoricalPeakValue>
 <LowCritical type="double">12.0</LowCritical>
 <LowCriticalVP type="ValueProvider">12.0</LowCriticalVP>
 <LowWarning type="double">13.0</LowWarning>
@@ -434,14 +432,17 @@
 <ValueDigits type="int">2</ValueDigits>
 <ValueDigitsVP type="ValueProvider">2.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">10.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">afr1</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.04</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <RelativeX type="double">0.6699999999999999</RelativeX>
@@ -451,16 +452,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">50.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String">EGO Correction 1</Title>
+<Min type="double">50.0</Min>
+<Units type="String">%</Units>
+<MinVP type="ValueProvider">50.0</MinVP>
+<Max type="double">150.0</Max>
+<MaxVP type="ValueProvider">150.0</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
@@ -476,11 +479,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">50.0</MinVP>
-<MaxVP type="ValueProvider">150.0</MaxVP>
-<Max type="double">150.0</Max>
-<Min type="double">50.0</Min>
-<Units type="String">%</Units>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">150.0</DefaultMax>
 <DefaultMin type="double">50.0</DefaultMin>
@@ -492,7 +490,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
 <LowCritical type="double">90.0</LowCritical>
 <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
 <LowWarning type="double">99.0</LowWarning>
@@ -509,14 +507,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">50.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">egocor1</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
@@ -526,16 +527,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">50.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String"/>
+<Min type="double">50.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">50.0</MinVP>
+<Max type="double">150.0</Max>
+<MaxVP type="ValueProvider">150.0</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
@@ -551,11 +554,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">50.0</MinVP>
-<MaxVP type="ValueProvider">150.0</MaxVP>
-<Max type="double">150.0</Max>
-<Min type="double">50.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">150.0</DefaultMax>
 <DefaultMin type="double">50.0</DefaultMin>
@@ -567,7 +565,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
 <LowCritical type="double">90.0</LowCritical>
 <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
 <LowWarning type="double">99.0</LowWarning>
@@ -584,14 +582,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">50.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">egocor1</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.04</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <RelativeX type="double">0.6699999999999999</RelativeX>
@@ -601,16 +602,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">50.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String">EGO Correction 2</Title>
+<Min type="double">50.0</Min>
+<Units type="String">%</Units>
+<MinVP type="ValueProvider">50.0</MinVP>
+<Max type="double">150.0</Max>
+<MaxVP type="ValueProvider">150.0</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">1</BorderWidth>
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
@@ -626,11 +629,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">50.0</MinVP>
-<MaxVP type="ValueProvider">150.0</MaxVP>
-<Max type="double">150.0</Max>
-<Min type="double">50.0</Min>
-<Units type="String">%</Units>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">150.0</DefaultMax>
 <DefaultMin type="double">50.0</DefaultMin>
@@ -642,7 +640,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
 <LowCritical type="double">90.0</LowCritical>
 <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
 <LowWarning type="double">99.0</LowWarning>
@@ -659,14 +657,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">50.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">egocor2</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.2</RelativeHeight>
 <RelativeWidth type="double">1.0</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
@@ -676,16 +677,18 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">50.0</Value>
+<Dirty type="boolean">true</Dirty>
 <Title type="String"/>
+<Min type="double">50.0</Min>
+<Units type="String"/>
+<MinVP type="ValueProvider">50.0</MinVP>
+<Max type="double">150.0</Max>
+<MaxVP type="ValueProvider">150.0</MaxVP>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<GroupId type="int">0</GroupId>
-<GoingDead type="boolean">false</GoingDead>
-<Dirty type="boolean">true</Dirty>
 <BackColor alpha="0" blue="0" green="0" red="0" type="Color">0</BackColor>
 <BorderWidth type="int">0</BorderWidth>
 <CriticalColor alpha="0" blue="0" green="0" red="0" type="Color">0</CriticalColor>
@@ -701,11 +704,6 @@
 <DisplayValueAt180 type="boolean">false</DisplayValueAt180>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">true</ShowHistory>
-<MinVP type="ValueProvider">50.0</MinVP>
-<MaxVP type="ValueProvider">150.0</MaxVP>
-<Max type="double">150.0</Max>
-<Min type="double">50.0</Min>
-<Units type="String"/>
 <BackgroundImageFileName type="String">null</BackgroundImageFileName>
 <DefaultMax type="double">150.0</DefaultMax>
 <DefaultMin type="double">50.0</DefaultMin>
@@ -717,7 +715,7 @@
 <HighCriticalVP type="ValueProvider">110.0</HighCriticalVP>
 <HighWarning type="double">101.0</HighWarning>
 <HighWarningVP type="ValueProvider">101.0</HighWarningVP>
-<HistoricalPeakValue type="double">50.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
 <LowCritical type="double">90.0</LowCritical>
 <LowCriticalVP type="ValueProvider">90.0</LowCriticalVP>
 <LowWarning type="double">99.0</LowWarning>
@@ -734,14 +732,17 @@
 <ValueDigits type="int">1</ValueDigits>
 <ValueDigitsVP type="ValueProvider">1.0</ValueDigitsVP>
 <ShapeLockedToAspect type="boolean">false</ShapeLockedToAspect>
+<GroupId type="int">0</GroupId>
+<GoingDead type="boolean">false</GoingDead>
 <Value type="double">50.0</Value>
-<LongClickAction type="String">null</LongClickAction>
-<ShortClickAction type="String">null</ShortClickAction>
 <Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">egocor2</OutputChannel>
-<EcuConfigurationName type="String"/>
+<LongClickAction type="String">null</LongClickAction>
+<ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
+<Dirty type="boolean">true</Dirty>
 <FontFamily type="String"/>
+<EcuConfigurationName type="String"/>
 <RelativeHeight type="double">0.04</RelativeHeight>
 <RelativeWidth type="double">0.33</RelativeWidth>
 <RelativeX type="double">0.6699999999999999</RelativeX>
@@ -751,7 +752,6 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<Dirty type="boolean">true</Dirty>
 </dashComp>
 </gaugeCluster>
 </dsh>
